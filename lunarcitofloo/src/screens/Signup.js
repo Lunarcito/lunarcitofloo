@@ -136,8 +136,8 @@ export default function Signup() {
             <Button
               borderRadius={0}
               type="submit"
-              variant="solid"
-              colorScheme='gandolapp'
+              variant="outline"
+              colorScheme="teal"
               width="full"
             >
               Sign up
@@ -146,7 +146,7 @@ export default function Signup() {
         </Box>
         </Stack>
         <Box>
-          <Link href="/" color="#1CE783" className='login'>Log in</Link>
+          <Link href="/" color="teal" className='login'>Log in</Link>
         </Box>
         </Flex>
       </form>
