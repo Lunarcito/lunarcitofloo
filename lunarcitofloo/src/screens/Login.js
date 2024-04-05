@@ -61,7 +61,7 @@ const Login = () => {
                 <InputGroup>
                   <InputLeftElement
                     pointerEvents="none"
-                    color="gray.300"
+                    color="gray.100"
                     children={<CFaLock color="gray.300" />}
                   />
                   <Input
@@ -81,6 +81,7 @@ const Login = () => {
               <Button
                 borderRadius={4}
                 type="submit"
+                variant="outline"
                 colorScheme="teal"
               >
                 Login
@@ -90,7 +91,7 @@ const Login = () => {
         </Box>
       </Stack>
       <Box>
-        <Link color="teal.300" href="/signup">
+        <Link color="teal" href="/signup">
           Sign Up
         </Link>
       </Box>
