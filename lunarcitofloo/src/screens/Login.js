@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import "../screens/Login.css"
 import {
     Flex,
-    Heading,
     Input,
     Button,
     InputGroup,
@@ -16,7 +15,7 @@ import {
     InputRightElement
   } from "@chakra-ui/react";
   import { FaUserAlt, FaLock } from "react-icons/fa";
-
+  import logo from "../images/weFoodieLogo.png"
 
 const CFaUserAlt = chakra(FaUserAlt);
 const CFaLock = chakra(FaLock);
@@ -40,7 +39,7 @@ const Login = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Heading color="teal.300">Lunarcito Foodie</Heading>
+        <img src={logo} alt="logo"/>
         <Box minW={{ base: "80%", md: "468px" }}>
           <form>
             <Stack
