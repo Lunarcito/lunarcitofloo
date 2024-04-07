@@ -2,7 +2,6 @@ import React, { useEffect, useState} from 'react'
 import './Signup.css'
 import {
   Flex,
-  Heading,
   Input,
   Button,
   InputGroup,
@@ -15,7 +14,7 @@ import {
   InputRightElement
 } from "@chakra-ui/react"
 import { FaUserAlt, FaLock } from "react-icons/fa"
-
+import logo from "../images/weFoodieLogo.png"
  
 const CFaUserAlt = chakra(FaUserAlt);
 const CFaLock = chakra(FaLock);
@@ -71,7 +70,7 @@ export default function Signup() {
           justifyContent="center"
           alignItems="center"
         >
-        <Heading color="teal.300">Lunarcito Foodie</Heading>
+        <img src={logo} alt="logo"/>
         <Box minW={{ base: "90%", md: "468px" }}>
           <Stack
             spacing={4}
